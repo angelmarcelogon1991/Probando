@@ -1,5 +1,11 @@
-const printBtn = document.getElementById('print');
 
-printBtn.addEventListener('click',function(){
-    print();
-})
+console.log("hola mundo")
+
+
+
+
+document.getElementById('boton').onclick = function(){
+    console.log("Capturamos el evento click")
+    document.getElementById('boton').innerHTML 
+    window.print();
+}
